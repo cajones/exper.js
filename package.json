@@ -1,0 +1,33 @@
+{
+  "name": "exper.js",
+  "version": "0.0.0",
+  "description": "exper.js\r ========",
+  "main": "exper.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "~1.3.3",
+    "grunt": "~0.4.4",
+    "matchdep": "~0.3.0",
+    "grunt-mocha-test": "^0.10.2",
+    "expect.js": "^0.3.1",
+    "grunt-browserify": "^2.0.8",
+    "uglify-js": "^2.4.13",
+    "uglifyify": "^2.1.1"
+  },
+  "scripts": {
+    "test": "grunt mochaTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cajones/exper.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cajones/exper.js/issues"
+  },
+  "homepage": "https://github.com/cajones/exper.js"
+}

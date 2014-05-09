@@ -1,0 +1,25 @@
+{
+  "name": "exper.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cajones/exper.js",
+  "authors": [
+    "Chris Jones <chris.jones@spongeuk.com>"
+  ],
+  "description": "Simple lightweight API for xAPI",
+  "main": "exper.js",
+  "keywords": [
+    "xAPI"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "xAPIWrapper": "https://github.com/adlnet/xAPIWrapper.git"
+  }
+}

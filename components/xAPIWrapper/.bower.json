@@ -1,0 +1,14 @@
+{
+  "name": "xAPIWrapper",
+  "homepage": "https://github.com/adlnet/xAPIWrapper",
+  "_release": "12b749aec1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "12b749aec145dda8a909de4095ef0e24120c29cd"
+  },
+  "_source": "https://github.com/adlnet/xAPIWrapper.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/adlnet/xAPIWrapper.git",
+  "_direct": true
+}
