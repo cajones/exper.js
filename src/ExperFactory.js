@@ -1,7 +1,8 @@
 var StatementFactory = require('./StatementFactory');
 
 var ExperFactory = function () {
-    if(typeof window === 'undefined' && this === global) {
+    var root = global || window;
+    if(this === root) {
         return new ExperFactory();
     }
 };

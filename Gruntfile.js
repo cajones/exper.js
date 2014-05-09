@@ -14,6 +14,14 @@ module.exports = function(grunt) {
         browserify: {
           compile: {
             files: {
+              'exper.js': ['src/**/*.js'],
+            },
+            options: {
+              transform: []
+            }
+          },
+          minify: {
+            files: {
               'exper.min.js': ['src/**/*.js'],
             },
             options: {
